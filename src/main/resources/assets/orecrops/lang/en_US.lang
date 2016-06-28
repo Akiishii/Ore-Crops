@@ -1,0 +1,110 @@
+itemGroup.OreCrops=Ore Crops
+
+tile.essenceOre.name=Essence Ore
+
+tile.taintedEssenceBlock.name=Tainted Essence Block
+tile.masterEssenceBlock.name=Master Essence Block
+tile.expertEssenceBlock.name=Expert Essence Block
+tile.strongEssenceBlock.name=Strong Essence Block
+tile.midEssenceBlock.name=Mid Essence Block
+tile.weakEssenceBlock.name=Weak Essence Block
+
+tile.dimportal.name=Dimension Portal
+tile.dimcreator.name=Dimension Creator
+
+item.weakEssence.name=Weak Essence
+item.lowEssence.name=Low Essence
+item.midEssence.name=Mid Essence
+item.strongEssence.name=Strong Essence
+item.expertEssence.name=Expert Essence
+item.masterEssence.name=Master Essence
+item.taintedEssence.name=Tainted Essence
+
+item.weakEssenceIngot.name=Weak Essence Ingot
+item.lowEssenceIngot.name=Low Essence Ingot
+item.midEssenceIngot.name=Mid Essence Ingot
+item.strongEssenceIngot.name=Strong Essence Ingot
+item.expertEssenceIngot.name=Expert Essence Ingot
+item.masterEssenceIngot.name=Master Essence Ingot
+item.taintedEssenceIngot.name=Tainted Essence Ingot
+
+item.weakEssencePlate.name=Weak Essence Plate
+item.midEssencePlate.name=Mid Essence Plate
+item.strongEssencePlate.name=Strong Essence Plate
+item.expertEssencePlate.name=Expert Essence Plate
+item.masterEssencePlate.name=Master Essence Plate
+item.taintedEssencePlate.name=Tainted Essence Plate
+
+item.weakEssenceNugget.name=Weak Essence Nugget
+item.midEssenceNugget.name=Mid Essence Nugget
+item.strongEssenceNugget.name=Strong Essence Nugget
+item.expertEssenceNugget.name=Expert Essence Nugget
+item.masterEssenceNugget.name=Master Essence Nugget
+item.taintedEssenceNugget.name=Tainted Essence Nugget
+
+item.weakEssenceGear.name=Weak Essence Gear
+item.midEssenceGear.name=Mid Essence Gear
+item.strongEssenceGear.name=Strong Essence Gear
+item.expertEssenceGear.name=Expert Essence Gear
+item.masterEssenceGear.name=Master Essence Gear
+item.taintedEssenceGear.name=Tainted Essence Gear
+
+item.weakInfusionCrystal.name=Weak Infusion Crystal
+item.midInfusionCrystal.name=Mid Infusion Crystal
+item.strongInfusionCrystal.name=Strong Infusion Crystal
+item.expertInfusionCrystal.name=Expert Infusion Crystal
+item.masterInfusionCrystal.name=Master Infusion Crystal
+item.taintedInfusionCrystal.name=Tainted Infusion Crystal
+
+item.weakEssenceAxe.name=Weak Essence Axe
+item.weakEssenceHoe.name=Weak Essence Hoe
+item.weakEssencePickaxe.name=Weak Essence Pickaxe
+item.weakEssenceShovel.name=Weak Essence Shovel
+item.weakEssenceSword.name=Weak Essence Sword
+
+item.midEssenceAxe.name=Mid Essence Axe
+item.midEssenceHoe.name=Mid Essence Hoe
+item.midEssencePickaxe.name=Mid Essence Pickaxe
+item.midEssenceShovel.name=Mid Essence Shovel
+item.midEssenceSword.name=Mid Essence Sword
+
+item.strongEssenceAxe.name=Strong Essence Axe
+item.strongEssenceHoe.name=Strong Essence Hoe
+item.strongEssencePickaxe.name=Strong Essence Pickaxe
+item.strongEssenceShovel.name=Strong Essence Shovel
+item.strongEssenceSword.name=Strong Essence Sword
+
+item.expertEssenceAxe.name=Expert Essence Axe
+item.expertEssenceHoe.name=Expert Essence Hoe
+item.expertEssencePickaxe.name=Expert Essence Pickaxe
+item.expertEssenceShovel.name=Expert Essence Shovel
+item.expertEssenceSword.name=Expert Essence Sword
+
+item.masterEssenceAxe.name=Master Essence Axe
+item.masterEssenceHoe.name=Master Essence Hoe
+item.masterEssencePickaxe.name=Master Essence Pickaxe
+item.masterEssenceShovel.name=Master Essence Shovel
+item.masterEssenceSword.name=Master Essence Sword
+
+item.ironForgeHammer.name=Iron Forge Hammer
+item.weakEssenceForgeHammer.name=Weak Essence Forge Hammer
+item.midEssenceForgeHammer.name=Mid Essence Forge Hammer
+item.strongEssenceForgeHammer.name=Strong Essence Forge Hammer
+item.expertEssenceForgeHammer.name=Expert Essence Forge Hammer
+item.masterEssenceForgeHammer.name=Master Essence Forge Hammer
+item.taintedEssenceForgeHammer.name=Tainted Essence Forge Hammer
+
+item.portalGenerator.name=Portal Generator
+
+item.magneticCoin.name=Magnet
+
+item.ironHammer.name=Iron Hammer
+
+item.ironExcavator.name=Iron Excavator
+
+item.essenceCoal.name=Essence Coal
+
+item.weakEssenceHelmet.name=Weak Essence Helmet
+item.weakEssenceChestplate.name=Weak Essence Chestplate
+item.weakEssenceLeggings.name=Weak Essence Leggings
+item.weakEssenceShoes.name=Weak Essence Shoes

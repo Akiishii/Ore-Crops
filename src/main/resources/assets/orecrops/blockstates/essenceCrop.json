@@ -1,0 +1,13 @@
+{
+    "variants": {
+        "age=0": { "model": "orecrops:essenceCrop_0" },
+        "age=1": { "model": "orecrops:essenceCrop_1" },
+        "age=2": { "model": "orecrops:essenceCrop_2" },
+        "age=3": { "model": "orecrops:essenceCrop_3" },
+        "age=4": { "model": "orecrops:essenceCrop_4" },
+        "age=5": { "model": "orecrops:essenceCrop_5" },
+        "age=6": { "model": "orecrops:essenceCrop_6" },
+        "age=7": { "model": "orecrops:essenceCrop_6" },
+		"inventory": { "model":"orecrops:essenceCrop" }
+    }
+}

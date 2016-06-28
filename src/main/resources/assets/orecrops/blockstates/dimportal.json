@@ -1,0 +1,6 @@
+{
+    "variants": {
+        "axis=z": { "model": "orecrops:dimportal_ew" },
+        "axis=x": { "model": "orecrops:dimportal_ns" }
+    }
+}
