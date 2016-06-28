@@ -168,7 +168,7 @@ public class OreCropsCrop extends BlockCrops implements IGrowable, IPlantable {
         for(int i = 0; i < count; i++) {
             Item item = this.getItemDropped(state, rnd, fortune);
             if(item != null) {
-                ret.add(new ItemStack(item, 4, this.damageDropped(state)));
+                ret.add(new ItemStack(item, 1, this.damageDropped(state)));
             }
         }
 
