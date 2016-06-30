@@ -41,7 +41,7 @@ public class ModBlocks {
  	public static Block silverCrop; // Applied Energistics/Applied Logistics
  	public static Block manasteelCrop;
  	public static Block osmiumCrop;
- 	public static Block steelCrop;
+ 	public static Block steelCrop; // Tinkers Construct
 
  	// Master Essence
  	public static Block diamondCrop;

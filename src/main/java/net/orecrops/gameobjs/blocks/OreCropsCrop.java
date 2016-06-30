@@ -181,4 +181,9 @@ public class OreCropsCrop extends BlockCrops implements IGrowable, IPlantable {
         }
         return ret;
     }
+    
+    @Override
+    public boolean canUseBonemeal(World worldIn, Random rand, BlockPos pos, IBlockState state) {
+    	return false;
+    }
 }
