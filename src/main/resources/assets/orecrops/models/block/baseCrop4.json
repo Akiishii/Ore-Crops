@@ -1,6 +1,6 @@
 {
     "parent": "block/crop",
     "textures": {
-        "all": "orecrops:blocks/essenceCrop_6"
+        "crop": "orecrops:blocks/baseCrop4"
     }
 }

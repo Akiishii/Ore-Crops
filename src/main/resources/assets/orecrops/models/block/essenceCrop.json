@@ -1,6 +1,6 @@
 {
     "parent": "orecrops:item/standardSeedItem",
     "textures": {
-        "all": "orecrops:blocks/essenceCrop_0"
+        "layer0": "orecrops:blocks/essenceCrop6"
     }
 }
