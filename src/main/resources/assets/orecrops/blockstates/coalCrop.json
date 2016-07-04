@@ -1,0 +1,13 @@
+{
+    "variants": {
+        "age=0": { "model": "orecrops:baseCrop0" },
+        "age=1": { "model": "orecrops:baseCrop1" },
+        "age=2": { "model": "orecrops:baseCrop2" },
+        "age=3": { "model": "orecrops:baseCrop3" },
+        "age=4": { "model": "orecrops:baseCrop4" },
+        "age=5": { "model": "orecrops:baseCrop5" },
+        "age=6": { "model": "orecrops:baseCrop5" },
+        "age=7": { "model": "orecrops:coalCrop6" },
+		"inventory": { "model":"orecrops:coalCrop" }
+    }
+}

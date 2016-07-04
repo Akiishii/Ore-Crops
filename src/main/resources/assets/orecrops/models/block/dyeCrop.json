@@ -1,0 +1,6 @@
+{
+    "parent": "orecrops:item/standardSeedItem",
+    "textures": {
+        "layer0": "orecrops:blocks/dyeCrop6"
+    }
+}

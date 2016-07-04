@@ -6,6 +6,7 @@ public class OreCropsCompatibility {
 		
 		public static final String AL = "appliedlogistics";
 		public static final String JEI = "JEI";
+		public static final String BOTANIA = "Botania";
 		public static final String JER = "jeresources";
 		public static final String BAUBLES = "Baubles";
 		public static final String THAUMCRAFT = "Thaumcraft";

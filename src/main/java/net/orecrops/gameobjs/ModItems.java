@@ -5,6 +5,7 @@ import java.util.HashMap;
 import net.minecraft.block.Block;
 import net.minecraft.init.Blocks;
 import net.minecraft.item.Item;
+import net.minecraftforge.fml.common.Loader;
 import net.minecraftforge.fml.common.registry.GameRegistry;
 import net.orecrops.OreCrops;
 import net.orecrops.gameobjs.blocks.OreCropsCrop;
@@ -19,6 +20,7 @@ import net.orecrops.gameobjs.items.tools.OreCropsPickaxe;
 import net.orecrops.gameobjs.items.tools.OreCropsShovel;
 import net.orecrops.gameobjs.items.tools.OreCropsSword;
 import net.orecrops.handler.OreCropsMaterialHandler;
+import net.orecrops.utils.OreCropsCompatibility;
 
 public class ModItems {
 
@@ -270,29 +272,39 @@ public class ModItems {
 		glowstoneSeeds = regSeeds("glowstoneSeeds", ModBlocks.glowstoneCrop, true);
 		obsidianSeeds = regSeeds("obsidianSeeds", ModBlocks.obsidianCrop, true);
 		netherSeeds = regSeeds("netherSeeds", ModBlocks.netherCrop, true);
-		aluminumSeeds = regSeeds("aluminumSeeds", ModBlocks.aluminumCrop, true);
+
 		xpSeeds = regSeeds("xpSeeds", ModBlocks.xpCrop, true);
-		tinSeeds = regSeeds("tinSeeds", ModBlocks.tinCrop, true);
-		copperSeeds = regSeeds("copperSeeds", ModBlocks.copperCrop, true);
 
 		redstoneSeeds = regSeeds("redstoneSeeds", ModBlocks.redstoneCrop, true);
 		ironSeeds = regSeeds("ironSeeds", ModBlocks.ironCrop, true);
 		certusSeeds = regSeeds("certusSeeds", ModBlocks.certusCrop, true);
 		lapisSeeds = regSeeds("lapisSeeds", ModBlocks.lapisCrop, true);
 		goldSeeds = regSeeds("goldSeeds", ModBlocks.goldCrop, true);
-		cobaltSeeds = regSeeds("cobaltSeeds", ModBlocks.cobaltCrop, true);
-		arditeSeeds = regSeeds("arditeSeeds", ModBlocks.arditeCrop, true);
-		leadSeeds = regSeeds("leadSeeds", ModBlocks.leadCrop, true);
-		silverSeeds = regSeeds("silverSeeds", ModBlocks.silverCrop, true);
-		manasteelSeeds = regSeeds("manasteelSeeds", ModBlocks.manasteelCrop, true);
 		osmiumSeeds = regSeeds("osmiumSeeds", ModBlocks.osmiumCrop, true);
-		steelSeeds = regSeeds("steelSeeds", ModBlocks.steelCrop, true);
 
 		diamondSeeds = regSeeds("diamondSeeds", ModBlocks.diamondCrop, true);
 		emeraldSeeds = regSeeds("emeraldSeeds", ModBlocks.emeraldCrop, true);
-		manyullynSeeds = regSeeds("manyullynSeeds", ModBlocks.manyullynCrop, true);
-		terrasteelSeeds = regSeeds("terrasteelSeeds", ModBlocks.terrasteelCrop, true);
-
+		
+		if(Loader.isModLoaded(OreCropsCompatibility.MOD_ID.AL)){
+			tinSeeds = regSeeds("tinSeeds", ModBlocks.tinCrop, true);
+			copperSeeds = regSeeds("copperSeeds", ModBlocks.copperCrop, true);
+			aluminumSeeds = regSeeds("aluminumSeeds", ModBlocks.aluminumCrop, true);
+			steelSeeds = regSeeds("steelSeeds", ModBlocks.steelCrop, true);
+			leadSeeds = regSeeds("leadSeeds", ModBlocks.leadCrop, true);
+			silverSeeds = regSeeds("silverSeeds", ModBlocks.silverCrop, true);
+		}
+		
+		if(Loader.isModLoaded(OreCropsCompatibility.MOD_ID.TINKERS_CONSTRUCT)){
+			cobaltSeeds = regSeeds("cobaltSeeds", ModBlocks.cobaltCrop, true);
+			arditeSeeds = regSeeds("arditeSeeds", ModBlocks.arditeCrop, true);
+			manyullynSeeds = regSeeds("manyullynSeeds", ModBlocks.manyullynCrop, true);
+		}
+		
+		if(Loader.isModLoaded(OreCropsCompatibility.MOD_ID.BOTANIA)){
+			manasteelSeeds = regSeeds("manasteelSeeds", ModBlocks.manasteelCrop, true);
+			terrasteelSeeds = regSeeds("terrasteelSeeds", ModBlocks.terrasteelCrop, true);
+		}
+		
 		blazeSeeds = regSeeds("blazeSeeds", ModBlocks.blazeCrop, true);
 		spiderSeeds = regSeeds("spiderSeeds", ModBlocks.spiderCrop, true);
 		cowSeeds = regSeeds("cowSeeds", ModBlocks.cowCrop, true);

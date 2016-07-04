@@ -4,6 +4,7 @@ import net.minecraft.block.Block;
 import net.minecraft.client.renderer.block.model.ModelResourceLocation;
 import net.minecraft.item.Item;
 import net.minecraftforge.client.model.ModelLoader;
+import net.minecraftforge.fml.common.Loader;
 import net.orecrops.gameobjs.ModBlocks;
 import net.orecrops.gameobjs.ModItems;
 
@@ -23,28 +24,46 @@ public class OreCropsRender {
 		reg(ModItems.glowstoneSeeds);
 		reg(ModItems.obsidianSeeds);
 		reg(ModItems.netherSeeds);
-		reg(ModItems.aluminumSeeds);
-		reg(ModItems.tinSeeds);
-		reg(ModItems.copperSeeds);
 		reg(ModItems.xpSeeds);
 		
 		reg(ModItems.redstoneSeeds);
 		reg(ModItems.ironSeeds);
 		reg(ModItems.goldSeeds);
 		reg(ModItems.lapisSeeds);
-		reg(ModItems.certusSeeds);
-		reg(ModItems.cobaltSeeds);
-		reg(ModItems.arditeSeeds);
-		reg(ModItems.leadSeeds);
-		reg(ModItems.silverSeeds);
-		reg(ModItems.manasteelSeeds);
-		reg(ModItems.osmiumSeeds);
-		reg(ModItems.steelSeeds);
+		//reg(ModItems.certusSeeds);
+		
+		//reg(ModItems.osmiumSeeds);
 		
 		reg(ModItems.diamondSeeds);
 		reg(ModItems.emeraldSeeds);
-		reg(ModItems.manyullynSeeds);
-		reg(ModItems.terrasteelSeeds);
+		
+		
+		
+		if(Loader.isModLoaded(OreCropsCompatibility.MOD_ID.AL)){
+			
+			reg(ModItems.aluminumSeeds);
+			reg(ModItems.tinSeeds);
+			reg(ModItems.copperSeeds);
+			reg(ModItems.leadSeeds);
+			reg(ModItems.silverSeeds);
+			reg(ModItems.steelSeeds);
+			
+		}
+		
+		if(Loader.isModLoaded(OreCropsCompatibility.MOD_ID.TINKERS_CONSTRUCT)){
+			
+			reg(ModItems.cobaltSeeds);
+			reg(ModItems.arditeSeeds);
+			reg(ModItems.manyullynSeeds);
+			
+		}
+
+		if(Loader.isModLoaded(OreCropsCompatibility.MOD_ID.BOTANIA)){
+			
+			reg(ModItems.manasteelSeeds);
+			reg(ModItems.terrasteelSeeds);
+		
+		}
 		
 		reg(ModItems.blazeSeeds);
 		reg(ModItems.cowSeeds);

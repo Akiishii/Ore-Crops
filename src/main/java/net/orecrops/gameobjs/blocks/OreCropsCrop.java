@@ -173,7 +173,7 @@ public class OreCropsCrop extends BlockCrops implements IGrowable, IPlantable {
         }
 
         if(age >= getHarvestReadyAge()) {
-            for(int i = 0; i < 7 + fortune; ++i) {
+            for(int i = 0; i < 3; ++i) {
                 if(rnd.nextInt(2 * getHarvestReadyAge()) <= age) {
                     ret.add(new ItemStack(this.getSeeds(), 1, 0));
                 }
@@ -184,6 +184,6 @@ public class OreCropsCrop extends BlockCrops implements IGrowable, IPlantable {
     
     @Override
     public boolean canUseBonemeal(World worldIn, Random rand, BlockPos pos, IBlockState state) {
-    	return false;
+    	return true;
     }
 }

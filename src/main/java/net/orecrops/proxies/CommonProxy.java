@@ -5,6 +5,7 @@ import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 import net.orecrops.gameobjs.ModBlocks;
 import net.orecrops.gameobjs.ModItems;
+import net.orecrops.utils.OreCropsRecipes;
 
 public class CommonProxy {
 
@@ -13,6 +14,7 @@ public class CommonProxy {
 		ModBlocks.loadCrops();
 		ModBlocks.loadBlocks();
 		ModItems.loadCropItems();
+		OreCropsRecipes.LoadOreCropsRecipes();
 		
     }
 

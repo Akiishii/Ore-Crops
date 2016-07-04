@@ -42,6 +42,7 @@ public class ModBlocks {
  	public static Block manasteelCrop;
  	public static Block osmiumCrop;
  	public static Block steelCrop; // Tinkers Construct
+ 	public static Block alumiteCrop; // Tinkers Construct
 
  	// Master Essence
  	public static Block diamondCrop;
@@ -105,9 +106,15 @@ public class ModBlocks {
 		arditeCrop = registerBlockCrop("arditeCrop");
 		leadCrop = registerBlockCrop("leadCrop");
 		silverCrop = registerBlockCrop("silverCrop");
+		manasteelCrop = registerBlockCrop("manasteelCrop");
+		osmiumCrop = registerBlockCrop("osmiumCrop");
+		steelCrop = registerBlockCrop("steelCrop");
+		alumiteCrop = registerBlockCrop("alumiteCrop");
 		
 		emeraldCrop = registerBlockCrop("emeraldCrop");
 		diamondCrop = registerBlockCrop("diamondCrop");
+		manyullynCrop = registerBlockCrop("manyullynCrop");
+		terrasteelCrop = registerBlockCrop("terrasteelCrop");
 		
 		blazeCrop = registerBlockCrop("blazeCrop");
 		enderCrop = registerBlockCrop("enderCrop");
@@ -122,6 +129,7 @@ public class ModBlocks {
 		ghastCrop = registerBlockCrop("ghastCrop");
 		witherCrop = registerBlockCrop("witherCrop");
 		pigCrop = registerBlockCrop("pigCrop");
+		zombieCrop = registerBlockCrop("zombieCrop");
  		
  	}
  	

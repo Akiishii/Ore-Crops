@@ -1,0 +1,6 @@
+{
+    "parent": "block/crop",
+    "textures": {
+        "crop": "orecrops:blocks/xpCrop6"
+    }
+}
